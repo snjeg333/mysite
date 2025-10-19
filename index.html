@@ -6,18 +6,19 @@
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Александр Егоров - Веб-разработчик</title>
     <link href="https://fonts.googleapis.com/css2?family=Roboto:400,700&display=swap&subset=cyrillic" rel="stylesheet">
-    <link rel="stylesheet" href="css\style.css">
+    <link rel="stylesheet" href="css/animate.css">
+    <link href="css\style.css" rel="stylesheet">
 </head>
 <body>
 <header class="hero">
 <div class="container">
     <div class="hero-header">
-      <img src="img\logo.svg" alt="Glo Academy" class="logo">
+      <img class="logo" src="img\logo.svg" alt="Glo Academy">
         <div class="social-links">
-            <a href="https://github.com/snjeg333" class="social-link"><img src="img\social\github.svg" alt="github"></a>
-            <a href="https://twitter.com" class="social-link"><img src="img\social\twitter.svg" alt="twitter"></a>
-            <a href="https://instagram.com" class="social-link"><img src="img\social\instagram.svg" alt="instagram"></a>
-            <a href="https://fb.com" class="social-link"><img src="img\social\facebook.svg" alt="fb"></a>
+            <a class="social-link" href="https://github.com/snjeg333"><img src="img\social\github.svg" alt="github"></a>
+            <a class="social-link" href="https://twitter.com"><img src="img\social\twitter.svg" alt="twitter"></a>
+            <a class="social-link" href="https://instagram.com"><img src="img\social\instagram.svg" alt="instagram"></a>
+            <a class="social-link" href="https://fb.com"><img src="img\social\facebook.svg" alt="fb"></a>
         </div>
             <!-- /.social-links -->
     </div>
@@ -25,14 +26,14 @@
 
     <div class="hero-content">
         <div class="hero-text">
-            <span class="hero-subtitle">Bеб-разработчик</span>
-            <h1 class="hero-title">Александр Егоров</h1>
-            <p class="hero-description">Разрабатываю сайты для малого и среднего бизнеса. У меня можно заказать дизайн и верстку 
+            <span class="hero-subtitle wow fadeInRight" data-wow-delay="0.2s">Bеб-разработчик</span>
+            <h1 class="hero-title wow fadeInRight" data-wow-delay="0.4s">Александр Егоров</h1>
+            <p class="hero-description wow fadeInRight" data-wow-delay="0.6s">Разрабатываю сайты для малого и среднего бизнеса. У меня можно заказать дизайн и верстку 
             небольшого сайта или интернет-магазина</p>
-            <button class="button hero-button">Бесплатная консультация</button>
+            <button class="button hero-button wow fadeInRight" data-wow-delay="0.8s">Бесплатная консультация</button>
         </div>
         <!-- /.hero-text -->
-        <div class="hero-avatar">
+        <div class="hero-avatar wow fadeIn" data-wow-delay="1.5s">
 
         </div>
         <!-- /.hero-avatar -->
@@ -42,6 +43,99 @@
 </div>
 <!-- /.container -->
 </header>
+
+<main>
+    <section class="features section">
+        <div class="container">
+            <h2 class="section-title wow zoomInDown" data-wow-delay="1.7s">Со мной удобно работать</h2>
+            <div class="features-block">
+                <div class="features-item wow zoomInDown" data-wow-delay="1.9s">
+                    <img class="features-image" src="img\features\offer-img.svg" alt="По договору">
+                    <h3 class="features-title">По договору</h3>
+                    <p class="features-text">Предоставлю все документы для бухгалтерии: договоры, счета и акты. Работаю как ИП без НДС.</p>
+                </div>
+                <div class="features-item wow zoomInDown" data-wow-delay="2.1s">
+                    <img class="features-image" src="img\features\deadline-img.svg" alt="Точно в срок">
+                    <h3 class="features-title">Точно в срок</h3>
+                    <p class="features-text">В договоре прописана моя  ответственность за срок проекта. Если просрочу — плачу неустойку. </p>
+                </div>
+                <div class="features-item wow zoomInDown" data-wow-delay="2.3s">
+                    <img class="features-image" src="img\features\agreement-img.svg" alt="Ценник для вас">
+                    <h3 class="features-title">Ценник для вас</h3>
+                    <p class="features-text">Если у вас не типовой проект, сделаю расчет цены за работу и объясню, как складывается цена.</p>
+                </div>
+                <div class="features-item wow zoomInDown" data-wow-delay="2.5s">
+                    <img class="features-image" src="img\features\steps-img.svg" alt="Промежуточные итоги">
+                    <h3 class="features-title">Промежуточные итоги</h3>
+                    <p class="features-text">Показываю работу поэтапно, а не  в последний момент перед  крайним сроком. </p>
+                </div>
+                <div class="features-item wow zoomInDown" data-wow-delay="2.7s">
+                    <img class="features-image" src="img\features\storage-img.svg" alt="Хостинг и домен">
+                    <h3 class="features-title">Хостинг и домен</h3>
+                    <p class="features-text">Если мы договорились о цене проекта, в неё входит всё: домен и хостинг на год + SSL сертификат.</p>
+                </div>
+                <div class="features-item wow zoomInDown" data-wow-delay="2.9s">
+                    <img class="features-image" src="img\features\conversation-img.svg" alt="Не брошу после сдачи">
+                    <h3 class="features-title">Не брошу после сдачи</h3>
+                    <p class="features-text">Научу вас или вашего сотрудника пользоваться сайтом, запишу видео-инструкции.</p>
+                </div>
+            </div>
+            <!-- /.features-block -->
+        </div>
+        <!-- /.container -->
+    </section>
+    <!-- /.features -->
+</main>
+
+<footer class="section">
+    <div class="container wow bounceInUp" data-wow-delay="3.1s">
+        <h2 class="section-title">Свяжитесь со мной</h2>
+        <div class="contacts-block">
+            <form class="contacts-form" action="#">
+                <h4 class="form-title">Можете просто оставить заявку, я позвоню вам сегодня</h4>
+                <input class="input input-name" type="text" placeholder="Ваше имя">
+                <input class="input input-phone" type="text" placeholder="Ваш телефон">
+                <button class="button form-button">Бесплатная консультация</button>
+            </form>
+
+            <div class="contacts-text">
+                <div class="contacts-data">
+                    <div class="contacts-phone">
+                        <h4 class="contacts-title">Телефон</h4>
+                        <a class="contacts-link" href="tel:+79991234567">+7 999 123-45-67</a>
+                    </div>
+                    <!-- /.contacts-phone -->
+                    <div class="contacts-mail">
+                        <h4 class="contacts-title">Почта</h4>
+                        <a class="contacts-link" href="mailto:mail@mail.ru">mail@mail.ru</a>
+                    </div>
+                    <!-- /.contacts-mail -->
+                    <div class="contacts-social">
+                        <h4 class="contacts-title">Соцсети</h4>
+                        <a class="contacts-link" href="#">t.me/ivanov</a>
+                        <a class="contacts-link" href="#">vk.me/ivanov</a>
+                        <a class="contacts-link" href="#">fb.me/ivanov</a>
+                    </div>
+                    <!-- /.contacts-social -->
+                </div>
+                <!-- /.contacts-data -->
+                <div class="social-links">
+                <a class="social-link" href="https://github.com/snjeg333"><img src="img\social\github.svg" alt="github"></a>
+                <a class="social-link" href="https://twitter.com"><img src="img\social\twitter.svg" alt="twitter"></a>
+                <a class="social-link" href="https://instagram.com"><img src="img\social\instagram.svg" alt="instagram"></a>
+                <a class="social-link" href="https://fb.com"><img src="img\social\facebook.svg" alt="fb"></a>
+                </div>
+            <!-- /.social-links -->
+             <a href="#" class="contacts-policy">Политика конфиденциальности</a>
+            </div>
+              <!-- /.contacts-trxt -->
+        </div>
+        <!-- /.contacts-block -->
+    </div>
+</footer>
+
+<script src="js/wow.min.js"></script>
+<script src="js/main.js"></script>
 </body>
 </html>
 
